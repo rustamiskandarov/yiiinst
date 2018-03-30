@@ -43,22 +43,6 @@ return [
             'rules' => [
             ],
         ],
-        'authClientCollection' => [
-            'class' => 'yii\authclient\Collection',
-            'clients' => [
-                'google' => [
-                    'class' => 'yii\authclient\clients\Google',
-                    'clientId' => 'google_client_id',
-                    'clientSecret' => 'google_client_secret',
-                ],
-                'facebook' => [
-                    'class' => 'yii\authclient\clients\Facebook',
-                    'clientId' => '135936450451355',
-                    'clientSecret' => '3983792a5d55250f940ac9a232c71fa3',
-                ],
-                // etc.
-            ],
-        ]
     ],
     'params' => $params,
 ];
